@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/index.css">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/animate.css" rel="stylesheet" type="text/css" media="all"/>
         <link rel="icon" type="images/png" sizes="32x32" href="images/favicon.png">
         <link rel="icon" type="images/png" sizes="96x96" href="images/favicon.png">
         <link rel="icon" type="images/png" sizes="16x16" href="images/favicon.png">
@@ -72,7 +73,7 @@
                                     <a href="#" class="w3ls_more" data-toggle="modal" data-target="#myModal">Know More</a>
                                 </li>
                                 <li>
-                                    <a href="resume.pdf" download class="scroll w3l_contact">
+                                    <a href="images/resume.pdf" download class="scroll w3l_contact">
                                         <i class="fa fa-download" aria-hidden="true"></i>
                                         Download CV
                                     </a>
@@ -457,24 +458,12 @@
 	<!-- here stars scrolling script -->
 	<script type="text/javascript ">
 		$(document).ready(function() {
-						var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
+			
 			$().UItoTop({ easingType: 'easeOutQuart' });
 								
 			});
 	</script>
-<script type="text/javascript ">
-	jQuery(document).ready(function($) {
-		$(".scroll ").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script> 
+
 
 </body>
 </html>
