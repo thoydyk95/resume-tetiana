@@ -1046,12 +1046,15 @@ span.glyphicon:hover {
 }
 
 .contact input[type="submit"] {
+    display: block;
+    margin: 0 auto;
     border: none;
     outline: none;
     color: #fff;
     background: #11b563;
     font-size: 16px;
     padding: 10px 40px;
+    margin: 0 auto;
 }
 
 ul.top-links li {
@@ -1166,7 +1169,7 @@ iframe {
     -moz-opacity: 0;
     filter: alpha(opacity=0);
 }
-
+/*
 @media screen and (max-width: 1920px) {
     .education-agile-w3l-year {
         padding: 3.75em 2em;
@@ -1188,7 +1191,7 @@ iframe {
 }
 
 @media screen and (max-width: 1440px) {
-    .education-agile-w3l-year {
+   .education-agile-w3l-year {
         padding: 4.64em 1em;
     }
 
@@ -1823,3 +1826,4 @@ iframe {
         margin: 1.5em 0 .5em;
     }
 }
+*/

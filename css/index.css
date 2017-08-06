@@ -8,6 +8,10 @@ p{
   color:#525252;
   font-size:12px;
 }
+.iframe{
+	
+	border: 0;
+}
 
 .skillbar {
 	position:relative;
