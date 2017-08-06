@@ -210,7 +210,6 @@ a.w3_agile_vimeo:hover {
     float: right;
     margin: 1.6em 2em 0 0;
 }
-
 /*-- menu-navigation --*/
 .shy-menu {
     -moz-transition: all .4s cubic-bezier(.1,.7,.3,1);
@@ -1169,7 +1168,7 @@ iframe {
     -moz-opacity: 0;
     filter: alpha(opacity=0);
 }
-/*
+
 @media screen and (max-width: 1920px) {
     .education-agile-w3l-year {
         padding: 3.75em 2em;
@@ -1566,10 +1565,10 @@ iframe {
         font-size: 26px;
         width: 16%;
     }
-
+}
  
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
     .education-agile-w3l-year {
         padding: 4.6em 1em;
     }
@@ -1580,9 +1579,9 @@ iframe {
     .banner, .agileinfo-dot {
         min-height: 510px;
     }
-}
+}*/
 
-@media screen and (max-width: 568px) {
+ @media screen and (max-width: 568px) {
     .banner, .agileinfo-dot {
         min-height: 500px;
     }
@@ -1826,4 +1825,3 @@ iframe {
         margin: 1.5em 0 .5em;
     }
 }
-*/
